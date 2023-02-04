@@ -32,9 +32,11 @@ class _HomePageState extends State<HomePage> {
                 borderRadius:
                     BorderRadius.vertical(bottom: Radius.circular(30)),
                 gradient: LinearGradient(
+                  begin: Alignment.bottomCenter,
+                  end: Alignment.centerLeft,
                   colors: [
                     Color(0xff042E2B),
-                    Color(0xff042E2B),
+                    Color.fromARGB(255, 12, 45, 42),
                   ],
                 ),
               ),
